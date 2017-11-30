@@ -50,4 +50,7 @@ export class LoginPage {
     console.log('Would sign in with ', this.user.value, this.password.value);
     //use user:admin and pass admin1 to sign in
   }
+    public createAccount() {
+      this.navCtrl.setRoot('RegisterPage');
+  }
 }
