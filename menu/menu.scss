@@ -1,0 +1,37 @@
+page-menu {
+    .wrapper {
+        position: relative;
+      }
+      
+      .item-avatar {
+          position:absolute;
+          left: 40%;
+          top: 35%;
+          max-width: 60px;
+          max-height: 60px;
+          border: 2px solid rgb(232, 15, 240);
+          border-radius: 50%;
+          box-shadow: 0 0 0px gray;
+          display: inline-block;
+        }.name {
+            bottom: 7%;
+            color: rgb(255, 0, 0);
+            font-size: 1.25em;
+            left: 0;
+            padding: 0.25em 0.75em;
+            position: absolute;
+          }
+          
+          .email {
+            bottom: 1%;
+            color: rgb(255, 0, 0);
+            font-size: 0.95em;
+            left: 0;
+            padding: 0.25em 1.2em;
+            position: absolute;
+          }
+          .nappi2{
+            padding-top: 0px;
+          }
+
+}

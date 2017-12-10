@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-navbar color="danger">
+    <ion-title>
+      Team Project
+    </ion-title>
+    <ion-buttons start>
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<!---Third page of text-->
+<ion-content class="bg-style">
+  
+     
+     <div class="images">
+       <div class="one-image" *ngFor="let image of [1,2]">
+          <img src="assets/imgs/{{image}}.png">
+        </div>
+      </div>
+      <div class="Pstyle">
+<p>This is our groupwork project, an imagedump with random images</p>
+     </div>
+    
+  </ion-content>

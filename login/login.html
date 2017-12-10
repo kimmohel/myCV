@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Login
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content class="login-content" padding>
+  <!---Put a nice video in the background of login-->
+    <video autoplay loop src="assets/videos/Clouds.mp4"></video>
+      <div class="login-box">
+      <ion-list>
+  <!---Basic setup here-->
+    <ion-item>
+      <ion-label floating>Username</ion-label>
+      <ion-input type="text" #username></ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label floating>Password</ion-label>
+      <ion-input type="password" #password></ion-input>
+    </ion-item>
+    <ion-item class="nappula" text-center>
+      <button ion-button color="primary" (click)="createAccount()" item-left>Register</button>
+    </ion-item>
+      </ion-list>
+      </div>
+      
+        <ion-row>
+          <ion-col class="signup-col">
+        <button ion-button (click)="signInUser()" item-left>Sign In</button>
+          </ion-col>
+        </ion-row>
+        
+        
+      
+  </ion-content>
